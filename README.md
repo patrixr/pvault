@@ -1,5 +1,9 @@
 # pvault
 
+## Demo
+
+![demo-gif](https://raw.githubusercontent.com/patrixr/pvault/master/resources/tty_cropped.gif)
+
 ## Getting started
 
 ```console
