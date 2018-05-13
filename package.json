@@ -13,6 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/patrixr/pvault.git"
   },
+  "keywords": [
+    "vault",
+    "api",
+    "keys",
+    "lock",
+    "password"
+  ],
   "author": "Patrick R",
   "license": "MIT",
   "bugs": {
