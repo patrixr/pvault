@@ -1,5 +1,7 @@
 # pvault
 
+Save your api keys in a password protected file on your repo.
+
 ## Demo
 
 ![demo-gif](https://raw.githubusercontent.com/patrixr/pvault/master/resources/tty_cropped.gif)
