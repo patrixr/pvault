@@ -1,0 +1,33 @@
+{
+  "name": "pvault",
+  "version": "1.0.0",
+  "description": "Password protected vault",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive -r test/setup test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrixr/pvault.git"
+  },
+  "author": "Patrick R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrixr/pvault/issues"
+  },
+  "homepage": "https://github.com/patrixr/pvault#readme",
+  "devDependencies": {
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "commander": "^2.15.1",
+    "lodash": "^4.17.10",
+    "mkdirp": "^0.5.1",
+    "prompt-input": "^3.0.0",
+    "prompt-list": "^3.1.2",
+    "rimraf": "^2.6.2"
+  }
+}

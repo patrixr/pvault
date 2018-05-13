@@ -1,3 +1,5 @@
+*.pv
+
 # Logs
 logs
 *.log
