@@ -133,7 +133,7 @@ program
     });
 
 program
-    .command("shell")
+    .command("list")
     .description("View and update vaults")
     .action(vaultSelect);
 
