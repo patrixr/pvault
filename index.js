@@ -1,4 +1,7 @@
-require("babel-register");
+require('babel-register')({
+    ignore: false,
+    only: /pvault\/lib/
+});
 
 var pvault = require('./lib/vault');
 
