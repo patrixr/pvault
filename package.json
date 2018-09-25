@@ -2,9 +2,12 @@
   "name": "pvault",
   "version": "1.0.1",
   "description": "Password protected vault",
-  "main": "index.js",
+  "main": "./cjs/index.js",
+  "module": "./esm/index.js",
   "scripts": {
-    "test": "mocha --recursive -r test/setup test/**/*.test.js"
+    "test": "mocha --recursive -r test/setup test/**/*.test.js",
+    "build": "babel lib --out-dir cjs",
+    "prepublishOnly": "npm run build"
   },
   "bin": {
     "pvault": "bin/cli.js"
@@ -31,8 +34,9 @@
     "mocha": "^5.1.1"
   },
   "dependencies": {
-    "babel-register": "^6.26.0",
+    "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
     "commander": "^2.15.1",
     "lodash": "^4.17.10",
     "mkdirp": "^0.5.1",

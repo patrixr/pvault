@@ -2,7 +2,7 @@
 
 var program   = require('commander');
 var pkg       = require('../package.json');
-var pvault    = require('../index');
+var pvault    = require('../cjs/vault');
 var fs        = require('fs');
 var path      = require('path');
 var Input     = require('prompt-input');
