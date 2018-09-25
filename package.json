@@ -2,7 +2,7 @@
   "name": "pvault",
   "version": "1.0.2",
   "description": "Password protected vault",
-  "main": "./cjs/index.js",
+  "main": "./cjs/vault.js",
   "scripts": {
     "test": "mocha --recursive -r test/setup test/**/*.test.js",
     "build": "babel lib --out-dir cjs",
