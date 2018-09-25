@@ -1,6 +1,6 @@
 {
   "name": "pvault",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Password protected vault",
   "main": "./cjs/vault.js",
   "scripts": {
